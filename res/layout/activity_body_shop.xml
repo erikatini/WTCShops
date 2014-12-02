@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.wtcshops.BodyShop" >
+ <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"         
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/bosh" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="			The Body Shop menawarkan berbagai produk kosmetik, maupun produk untuk perawatan tubuh, wajah, rambut dan kulit yang aman dipakai karena menggunakan kandungan alami.\n\n			The Body Shop International plc, atau lebih dikenal dengan The Body Shop, memiliki sekitar 2,400 toko di 61 negara. Menurut O Boticario, sebuah perusahaan dari Brazil, The Body Shop adalah perusahaan franchise kosmetika kedua terbesar di dunia. Perusahaan ini, yang berpusat di Littlehampton, Sussex Barat, Inggris, didirikan oleh Dame Anita Roddick dan terkenal oleh produk-produknya yang menggunakan zat herbal mulai dari Body Butter, Peppermint Foot Lotion, dan Hemp.\n\n			The Body Shop juga menekankan dukungannya terhadap berbagai macam isu yang beredar di seluruh dunia. Slogan-slogan mereka antara lain adalah: Against Animal Testing (Lawan Uji Coba terhadap Hewan), Support Community Trade, Activate Self Esteem, Defend Human Rights (Tegakkan HAM), dan Protect Our Planet (Proteksikan Planet Kita). \n\nLokasi Body Shop di WTC Batanghari\nLantai dasar dekat tangga
+"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+    
+

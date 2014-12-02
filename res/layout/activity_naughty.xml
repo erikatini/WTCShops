@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.wtcshops.Naughty" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="210dp"
+                android:adjustViewBounds="true"
+                android:baselineAlignBottom="false"
+                android:scaleType="fitXY"
+                android:src="@drawable/naughty" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="			Bagi Anda yang menyukai aksesoris imut, feminine, dan yang lucu-lucu, Anda bisa mendatangi Naughty Accesories. Naughty Accessories merupakan perusahaan produsen dan retailer accessories yang terlengkap.\n\n			Toko ini pada umumnya menjual berbagai macam produk barang perlengkapan kecantikan, meliputi aksesoris, hair support, bags, make up, fashion support, make up, aksesoris handphone, stationary, hingga berbagai macam gift. \n\n			Selain itu, Naughty Accessories juga menawarkan keanggotaan untuk para pelanggannya dengan mengadakan program member card dengan berbagai keuntungan yang ditentukan olehnya.\n\n			Selain barang-barang yang dijual sangat lengkap, Naughty Accessories juga termasuk salah satu toko modern dengan harga yang murah. Karena kesuksesannya, hingga saat ini Naughty Accessories telah membuat beberapa outlet baru, salah satunya di WTC Batanghari, Jambi. Totalnya, Naughty Accessories telah memiliki lebih dari 30 toko dan tersebar di seluruh Indonesia.\n\nLokasi Naughty di WTC Batanghari\nLantai dasar di depan Solaria\nLantai 1 di depan eskalator turun"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
